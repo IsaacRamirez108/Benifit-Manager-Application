@@ -1,3 +1,55 @@
+# Denari - Rent Payment Management Platform
+
+A React Native application for managing rent payments and tenant-landlord relationships.
+
+## Project Structure
+
+```
+denari/
+├── app/                    # Expo Router app directory
+├── src/                    # Source code
+│   ├── components/        # Reusable UI components
+│   ├── screens/          # Screen components
+│   ├── constants/        # App-wide constants
+│   ├── contexts/         # React Context definitions
+│   ├── data/            # Mock data and data utilities
+│   ├── hooks/           # Custom React hooks
+│   ├── services/        # API and external service integrations
+│   ├── styles/          # Global styles and themes
+│   ├── types/           # TypeScript type definitions
+│   └── utils/           # Utility functions
+├── assets/               # Static assets (images, fonts)
+└── package.json         # Project dependencies and scripts
+```
+
+## Getting Started
+
+1. Install dependencies:
+```bash
+npm install
+```
+
+2. Start the development server:
+```bash
+npm start
+```
+
+## Mock Data
+
+The application includes mock data for development and testing purposes, located in `src/data/userMockData.ts`. This includes:
+
+- User profile information
+- Rental details
+- Payment history
+- Virtual account information
+
+## Tech Stack
+
+- React Native
+- Expo
+- TypeScript
+- Expo Router
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
@@ -48,3 +100,4 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Benifit-Manager-Application
