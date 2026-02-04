@@ -4,10 +4,6 @@
 
 🔗 **Related:** [Backend API](https://github.com/IsaacRamirez108/Denari-Manager-Service)
 
-## 📱 Screenshots
-
-[Add screenshots here]
-
 ## 🚀 Tech Stack
 
 - **Framework:** React Native with Expo
