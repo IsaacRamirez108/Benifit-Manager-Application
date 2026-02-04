@@ -1,26 +1,69 @@
 # Denari - Rent Payment Management Platform
 
-A React Native application for managing rent payments and tenant-landlord relationships.
+> Cross-platform fintech mobile application for automated rent payment splitting
 
-## Project Structure
+🔗 **Related:** [Backend API](https://github.com/IsaacRamirez108/Denari-Manager-Service)
+
+## 📱 Screenshots
+
+[Add screenshots here]
+
+## 🚀 Tech Stack
+
+- **Framework:** React Native with Expo
+- **Language:** TypeScript
+- **Navigation:** Expo Router (file-based)
+- **State Management:** React Context API
+- **Storage:** AsyncStorage
+- **APIs:** Google Places, REST APIs, WebView bridge
+
+## ✨ Features
+
+- ✅ 10-step user onboarding flow
+- ✅ OTP-based authentication
+- ✅ Google Places address autocomplete
+- ✅ Real-time form validation
+- ✅ Payment schedule calendar
+- ✅ WebView bank account linking
+- ✅ Payment history dashboard
+- ✅ Push notifications (planned)
+
+## 🏗️ Project Structure
 
 ```
 denari/
-├── app/                    # Expo Router app directory
-├── src/                    # Source code
-│   ├── components/        # Reusable UI components
-│   ├── screens/          # Screen components
-│   ├── constants/        # App-wide constants
-│   ├── contexts/         # React Context definitions
+├── app/                # Expo Router app directory
+│  
+├── src/                 # Source code
+│   ├── components/      # Reusable UI components
+│   ├── screens/         # Screen components
+│   ├── constants/       # App-wide constants
+│   ├── contexts/        # React Context definitions
 │   ├── data/            # Mock data and data utilities
 │   ├── hooks/           # Custom React hooks
 │   ├── services/        # API and external service integrations
 │   ├── styles/          # Global styles and themes
 │   ├── types/           # TypeScript type definitions
 │   └── utils/           # Utility functions
-├── assets/               # Static assets (images, fonts)
+├── assets/              # Static assets (images, fonts)
 └── package.json         # Project dependencies and scripts
 ```
+
+## 🔐 Security
+
+- JWT token stored in AsyncStorage with encryption
+- Secure API communication (HTTPS only)
+- Input sanitization and validation
+- Biometric authentication (planned)
+
+## 📦 Some Custom Components
+
+- `AddressAutocomplete` - Google Places integration with debouncing
+- `FormField` - Validated input with error handling
+- `AuthContext` - JWT token management
+- `ScreenWrapper` - Consistent layout wrapper
+- `PaymentHistoryList` - Payment tracking UI
+
 
 ## Getting Started
 
@@ -50,7 +93,7 @@ The application includes mock data for development and testing purposes, located
 - TypeScript
 - Expo Router
 
-# Welcome to your Expo app 👋
+# Create Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
